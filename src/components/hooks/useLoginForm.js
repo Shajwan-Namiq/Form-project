@@ -29,14 +29,5 @@ export default function useLoginForm(callback) {
     }
   };
 
-  return {
-    loggedIn,
-    setLoggedIn,
-    handleSubmit,
-    formData,
-    setFormData,
-    handleInput,
-    loginError,
-    setLoginError,
-  };
+  return { loggedIn, handleSubmit, formData, handleInput, loginError };
 }
